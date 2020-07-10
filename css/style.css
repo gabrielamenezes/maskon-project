@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    min-height: 730px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.1), #222222), url(../img/ani-kolleshi-vu-DaZVeny0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 730px;
+}
+.menu-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+.menu-color {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.menu_container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.title {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title span {
+    color: lightgreen;
+    font-weight: bolder;
+    text-shadow: 1px 1px #222222;
+}
+
+.menu {
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    margin-left: 1rem;
+    color: #222222;
+}
+
+.link_menu_mask {
+    border: 1px solid #222222;
+}
+
+.link_menu_mask:hover {
+    background-color: lightgreen;
+    color: #222222;
+    border: 1px solid lightgreen;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container p {
+    color: #ffffffe0;
+    text-shadow: 1px 1px #222222;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn_banner {
+    color: #ffffffe0;
+    border: 1px solid #222222;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 1px 2px #555555;
+}
+
+.btn_banner:hover{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    color: #222222;
+}
+
+.btn_banner:active {
+    box-shadow: none;
+}
+.banner_title {
+    color: #ffffffe0;
+    text-shadow: 1px 1px #222222;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.widget-title {
+    margin: 30px 0;
+    color: #222222;
+    padding: 0 20px;
+}
+
+.widget-title:after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 1px;
+}
+
+.widget-title:hover::after {
+    display: block;
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: lightgreen;
+    transition: width 600ms ease;
+}
+.sec-container {
+    height: 50vh;
+    display: grid;
+}
